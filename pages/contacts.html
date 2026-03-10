@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакти</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Контакти</h1>
+        <nav>
+            <a href="../index.html">Головна</a>
+            <a href="about.html">Про нас</a>
+            <a href="articles.html">Cтатті</a>
+            <a href="gallery.html">Галерея</a>
+            <a href="contacts.html">Контакти</a>
+            <a href="anchors.html">Якорі</a>
+        </nav>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Зв'яжіться з нами</legend>
+                <p>
+                    <label for="name">Ім'я:</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="message">Повідомлення:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Виберіть послугу</legend>
+
+                <div class="option">
+                    <input type="radio" id="design" name="service" value="design">
+                    <label for="design">Дизайн</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" id="development" name="service" value="development">
+                    <label for="development">Розробка</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Додатково</legend>
+
+                <div class="option">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Підписатися на новини</label>
+                </div>
+            </fieldset>
+
+            <p>
+                <button type="submit">Надіслати</button>
+            </p>
+
+        </form>
+        <h2>Аудіо</h2>
+        <audio controls>
+            <source src="../images/audio/sample.mp3" type="audio/mpeg">
+            Ваш браузер не підтримує аудіо елемент.
+        </audio>
+
+        <h2>Відео</h2>
+        <video width="400" controls>
+            <source src="../images/video/sample.mp4" type="video/mp4">
+            Ваш браузер не підтримує відео елемент.
+        </video>
+
+        <h2>Відео</h2>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video"
+            allowfullscreen>
+        </iframe>
+        <footer>
+            <p>2026 Мій сайт</p>
+        </footer>
+    </div>
+</body>
+
+</html>
